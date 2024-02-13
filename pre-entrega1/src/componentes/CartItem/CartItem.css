@@ -1,0 +1,28 @@
+.cartItem { 
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e5e5;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.2 ease;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(233, 51, 51);
+    color: #000;
+    transform: scale(1.1);
+}
+

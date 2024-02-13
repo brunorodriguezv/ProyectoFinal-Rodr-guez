@@ -1,0 +1,25 @@
+.cartInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    gap: 1em;
+}
+
+.cartInfo > .clearCartBtn, .buyBtn{
+    color: #000;
+    border: 1px solid ;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e5e5;
+    cursor: pointer;
+    padding: 5px;  
+    transition: 0.2 ease; 
+    text-decoration: none;
+}
+
+.cartInfo > .clearCartBtn:hover, .buyBtn:hover {
+    transform: scale(1.1);
+    background-color: #d9f0a8;
+}
